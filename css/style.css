@@ -7,11 +7,11 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #F14E95;
+  color: #AF905E;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #F14E95;
+  color: #AF905E;
   outline: none;
   text-decoration: none;
 }
@@ -64,24 +64,24 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
 
 ::-webkit-selection {
   color: #fff;
-  background: #F14E95;
+  background: #AF905E;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #F14E95;
+  background: #AF905E;
 }
 
 ::selection {
   color: #fff;
-  background: #F14E95;
+  background: #AF905E;
 }
 
 .fh5co-nav {
@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
   line-height: 40px;
-  font-family: "Sacramento", Arial, serif;
+  font-family: "Tangerine", Arial, cursive;
 }
 .fh5co-nav a {
   padding: 5px 10px;
@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 .fh5co-nav ul li.btn-cta a {
-  color: #F14E95;
+  color: #AF905E;
 }
 .fh5co-nav ul li.btn-cta a span {
   background: #fff;
@@ -296,7 +296,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-cover {
-  height: 900px;
+  height: 600px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -322,7 +322,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
-  height: 900px;
+  height: 600px;
   display: table;
   width: 100%;
 }
@@ -368,11 +368,13 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .fh5co-heading h2,
 #fh5co-event .fh5co-heading h2 {
-  color: #fff;
+  color: #322118;
+  /* color: #fff; */
 }
 #fh5co-counter .fh5co-heading span,
 #fh5co-event .fh5co-heading span {
-  color: rgba(255, 255, 255, 0.5);
+  color: #322118;
+  /* color: rgba(255, 255, 255, 0.5); */
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 2px;
@@ -385,7 +387,8 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  /* background: #af905e; */
+  /* background: rgba(0, 0, 0, 0.4); */
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter,
@@ -402,7 +405,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .event-wrap,
 #fh5co-event .event-wrap {
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  border: 2px solid #af905e;
+  /* border: 2px solid rgba(255, 255, 255, 0.5); */
   background: rgba(255, 255, 255, 0.1);
   padding: 30px;
   width: 100%;
@@ -421,7 +425,8 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter .event-wrap h3,
 #fh5co-event .event-wrap h3 {
   font-size: 20px;
-  color: #fff;
+  /* color: #fff; */
+  color: #322118;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   display: block;
   padding-bottom: 20px;
@@ -432,11 +437,13 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-event .event-wrap p,
 #fh5co-event .event-wrap span {
   display: block;
-  color: rgba(255, 255, 255, 0.8);
+  /* color: rgba(255, 255, 255, 0.8); */
+  color: #322118;
 }
 #fh5co-counter .event-wrap i,
 #fh5co-event .event-wrap i {
-  color: white;
+  /* color: white; */
+  color: #322118;
   font-size: 20px;
 }
 #fh5co-counter .event-wrap .event-col,
@@ -768,7 +775,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #F14E95;
+  color: #AF905E;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -787,7 +794,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .fh5co-contact-info ul li:before {
-  color: #F14E95;
+  color: #AF905E;
   position: absolute;
   left: 0;
   top: .05em;
@@ -844,7 +851,7 @@ form label {
   margin-bottom: 0px;
   font-size: 100px;
   line-height: 1.5;
-  font-family: "Sacramento", Arial, serif;
+  font-family: "Tangerine", Arial, cursive;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
@@ -865,7 +872,7 @@ form label {
 .fh5co-cover .display-tc h2 {
   font-size: 20px;
   line-height: 1.5;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h2,
@@ -879,7 +886,7 @@ form label {
 .fh5co-cover .display-tc .btn {
   padding: 15px 20px;
   background: #fff !important;
-  color: #F14E95;
+  color: #AF905E;
   border: none !important;
   font-size: 14px;
   text-transform: uppercase;
@@ -1043,7 +1050,7 @@ form label {
   font-size: 20px;
   background: #fff;
   padding: 20px;
-  color: #F14E95;
+  color: #AF905E;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1065,8 +1072,8 @@ form label {
   }
 }
 .couple-half h3 {
-  font-family: "Sacramento", Arial, serif;
-  color: #F14E95;
+  font-family: "Tangerine", Arial, cursive;
+  color: #AF905E;
   font-size: 30px;
 }
 .couple-half .groom, .couple-half .bride {
@@ -1159,7 +1166,7 @@ form label {
   height: 90px;
   font-size: 40px;
   line-height: 40px;
-  color: #F14E95;
+  color: #AF905E;
 }
 .feature-center p, .feature-center h3 {
   margin-bottom: 30px;
@@ -1181,8 +1188,8 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #F14E95;
-  font-family: "Sacramento", Arial, serif;
+  color: #AF905E;
+  font-family: "Tangerine", Arial, cursive;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
@@ -1190,7 +1197,7 @@ form label {
   }
 }
 .fh5co-heading p {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.5;
   color: #828282;
 }
@@ -1216,7 +1223,7 @@ form label {
   display: block;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide span a.twitter {
-  color: #F14E95;
+  color: #AF905E;
   font-weight: 300;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide figure {
@@ -1308,7 +1315,7 @@ form label {
   display: table-cell;
   vertical-align: middle;
   font-size: 30px;
-  color: #F14E95;
+  color: #AF905E;
 }
 .feature-left .feature-copy {
   float: left;
@@ -1374,7 +1381,7 @@ form label {
 #fh5co-started .btn {
   height: 54px;
   border: none !important;
-  background: #F14E95;
+  background: #AF905E;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -1418,7 +1425,7 @@ form label {
 }
 .owl-carousel .owl-controls .owl-dot.active span {
   background: transparent;
-  border: 2px solid #F14E95;
+  border: 2px solid #AF905E;
 }
 
 #fh5co-offcanvas {
@@ -1647,7 +1654,7 @@ form label {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 30px;
@@ -1671,9 +1678,9 @@ form label {
 }
 
 .btn-primary {
-  background: #F14E95;
+  background: #AF905E;
   color: #fff;
-  border: 2px solid #F14E95;
+  border: 2px solid #AF905E;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #f366a3 !important;
@@ -1681,11 +1688,11 @@ form label {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #F14E95;
-  border: 2px solid #F14E95;
+  color: #AF905E;
+  border: 2px solid #AF905E;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #F14E95;
+  background: #AF905E;
   color: #fff;
 }
 
@@ -1815,7 +1822,7 @@ form label {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #F14E95;
+  border-color: #AF905E;
 }
 
 .row-pb-md {
